@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project.stage2Controller">
+   <children>
+      <Button layoutX="227.0" layoutY="192.0" mnemonicParsing="false" onAction="#Register" text="Register" />
+      <Label fx:id="MessageLabel" layoutX="200.0" layoutY="229.0" prefHeight="17.0" prefWidth="201.0" />
+      <TextField fx:id="NameField" layoutX="226.0" layoutY="114.0" promptText="Username" />
+      <Button layoutX="330.0" layoutY="192.0" mnemonicParsing="false" onAction="#Login" text="Login" />
+      <PasswordField fx:id="PasswordField" layoutX="226.0" layoutY="152.0" promptText="Password" />
+      <Label fx:id="MessageLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="223.0" layoutY="29.0" prefHeight="62.0" prefWidth="149.0" text="AlSaedi Bank" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
